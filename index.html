@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Test Your English - Every Level</title>
+    <link rel="shortcut icon" href="./img/check-mark.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/media-query.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-----Header page start----->
+    <header>
+      <!---Background-img header-->
+      <div class="background-img position-relative">
+        <div class="bg"></div>
+      </div>
+      <!------NavBar start------>
+      <nav class="navbar navbar-expand-lg">
+        <!-- Logo -->
+        <div class="logo ms-3">
+          <img src="./img/logo-test-english-web-home.webp" alt="" />
+        </div>
+
+        <!-- search and login btn small -->
+        <div class="search-login-btn d-lg-none d-md-block d-block me-3 ms-auto">
+          <!-- Search Icon -->
+          <a href="#" class="text-decoration-none me-2">
+            <img src="./img/search.png" alt="Search" style="height: 28px" />
+          </a>
+
+          <!-- Login Button -->
+          <a
+            href="#"
+            class="btn text-light border border-2 btn-outline-success pt-0 pb-1 pe-1 ps-1 rounded-3 fs-6 fw-bold"
+            >Login</a
+          >
+        </div>
+
+        <!-- Toggler for smaller screens -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Centered Links -->
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+          <!--Navbar ul-->
+          <ul class="navbar-nav m-auto navbar-ul">
+            <!------Grammar------>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link Grammer"
+                href="#"
+                role="button"
+                aria-expanded="false"
+              >
+                Grammar
+              </a>
+              <ul class="dropdown-menu rounded-4 ul-Grammer">
+                <li><a class="dropdown-item" href="#">Elementary</a></li>
+                <li><a class="dropdown-item" href="#">Pre-intermediate</a></li>
+                <!-- <li><hr class="dropdown-divider" /></li> -->
+                <li><a class="dropdown-item" href="#">Intermediate</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Upper-intermediate</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Pre-advanced</a></li>
+              </ul>
+            </li>
+            <!------Vocabulary------>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link Vocabulary"
+                href="#"
+                role="button"
+                aria-expanded="false"
+              >
+                Vocabulary
+              </a>
+              <ul class="dropdown-menu rounded-4 ul-Vocabulary">
+                <li><a class="dropdown-item" href="#">Elementary</a></li>
+                <li><a class="dropdown-item" href="#">Pre-intermediate</a></li>
+                <!-- <li><hr class="dropdown-divider" /></li> -->
+                <li><a class="dropdown-item" href="#">Intermediate</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Upper-intermediate</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Pre-advanced</a></li>
+              </ul>
+            </li>
+            <!------Listening------>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link Listening"
+                href="#"
+                role="button"
+                aria-expanded="false"
+              >
+                Listening
+              </a>
+              <ul class="dropdown-menu rounded-4 ul-Listening">
+                <li><a class="dropdown-item" href="#">Elementary</a></li>
+                <li><a class="dropdown-item" href="#">Pre-intermediate</a></li>
+                <!-- <li><hr class="dropdown-divider" /></li> -->
+                <li><a class="dropdown-item" href="#">Intermediate</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Upper-intermediate</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Pre-advanced</a></li>
+              </ul>
+            </li>
+            <!------Reading------>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link Reading"
+                href="#"
+                role="button"
+                aria-expanded="false"
+              >
+                Reading
+              </a>
+              <ul class="dropdown-menu rounded-4 ul-Reading">
+                <li><a class="dropdown-item" href="#">Elementary</a></li>
+                <li><a class="dropdown-item" href="#">Pre-intermediate</a></li>
+                <!-- <li><hr class="dropdown-divider" /></li> -->
+                <li><a class="dropdown-item" href="#">Intermediate</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Upper-intermediate</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Pre-advanced</a></li>
+              </ul>
+            </li>
+            <!------Use of English------>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link Use-of-English"
+                href="#"
+                role="button"
+                aria-expanded="false"
+              >
+                Use of English
+              </a>
+              <ul class="dropdown-menu rounded-4 ul-Use-of-English">
+                <li><a class="dropdown-item" href="#">Elementary</a></li>
+                <li><a class="dropdown-item" href="#">Pre-intermediate</a></li>
+                <!-- <li><hr class="dropdown-divider" /></li> -->
+                <li><a class="dropdown-item" href="#">Intermediate</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Upper-intermediate</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Pre-advanced</a></li>
+              </ul>
+            </li>
+            <!------Writing------>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link Writing"
+                href="#"
+                role="button"
+                aria-expanded="false"
+              >
+                Writing
+              </a>
+              <ul class="dropdown-menu rounded-4 ul-Writing">
+                <li><a class="dropdown-item" href="#">Elementary</a></li>
+                <li><a class="dropdown-item" href="#">Pre-intermediate</a></li>
+                <!-- <li><hr class="dropdown-divider" /></li> -->
+                <li><a class="dropdown-item" href="#">Intermediate</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Upper-intermediate</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Pre-advanced</a></li>
+              </ul>
+            </li>
+            <!------Exams------>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link Exams"
+                href="#"
+                role="button"
+                aria-expanded="false"
+              >
+                Exams
+              </a>
+              <ul class="dropdown-menu rounded-4 ul-Exams">
+                <li><a class="dropdown-item" href="#">Key(KET)</a></li>
+                <li><a class="dropdown-item" href="#">Preliminary(PET)</a></li>
+                <!-- <li><hr class="dropdown-divider" /></li> -->
+                <li><a class="dropdown-item" href="#">First(FCE)</a></li>
+                <li><a class="dropdown-item" href="#">IELTS</a></li>
+                <li><a class="dropdown-item" href="#">TOEFL iBT</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <!-- search and login btn Large -->
+          <div class="search-login-btn d-lg-block d-md-none d-none me-4">
+            <!-- Search Icon -->
+            <a href="#" class="text-decoration-none me-3">
+              <img src="./img/search.png" alt="Search" style="height: 30px" />
+            </a>
+
+            <!-- Login Button -->
+            <a
+              href="#"
+              class="btn text-light border border-2 btn-outline-success pt-0 pb-1 pe-1 ps-1 rounded-3 fs-6 fw-bold"
+              >Login</a
+            >
+          </div>
+        </div>
+      </nav>
+      <!-------NavBar end------->
+      <!------Header text------->
+      <div class="header-text p-3">
+        <h1 class="main-text fs-1 fw-bold">Test-English</h1>
+        <span class="highlight-text"></span>
+        <p class="row col-lg-5 col-md-12 col-12 description fw-light p-0 m-0">
+          Grammar lessons with exercises and clear explanations, grammar charts,
+          reading and listening tests with transcriptions, writing lessons,
+          instant marking, answer feedback, and much more!
+        </p>
+      </div>
+    </header>
+    <!------Header page end------>
+    <!-------Container start------->
+
+    <!-----Header-text-container----->
+    <div class="header-text-container text-center mt-4">
+      <h2 class="fw-bold fs-2">
+        What would you like to <span> Learn </span> today?
+      </h2>
+    </div>
+    <div class="container">
+      <div class="row p-0 m-0">
+        <!------One-Card------>
+        <div class="col-lg-4 col-md-6 col-12 mt-4">
+          <div class="card border-light rounded-4 overflow-hidden">
+            <img
+              src="./img/test-english-home-Grammar-points.webp"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body body-grammar">
+              <h3 class="card-title">Grammar Lessons</h3>
+              <p class="card-text text-secondary fw-light">
+                Study the grammar lessons that are typically included in each
+                level: <span>A1</span>, <span>A2</span>, <span>B1</span>,
+                <span>B1+</span>, <span>B2</span>. There are three or more
+                exercises and an explanation in each lesson, and feedback for
+                every single question!
+              </p>
+              <a
+                href="#"
+                class="animated-btn btn border border-2 border-secondary border-opacity-75 p-2 rounded-3 text-secondary text-opacity-75"
+                >Go to the lessons</a
+              >
+            </div>
+          </div>
+        </div>
+        <!------One-Card------>
+        <div class="col-lg-4 col-md-6 col-12 mt-4">
+          <div class="card border-light rounded-4 overflow-hidden">
+            <img
+              src="./img/A1-English-Vocabulary_Eating-and-drinking-utensils.webp"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body body-vocab">
+              <h3 class="card-title">Vocabulary Lessons</h3>
+              <p class="card-text text-secondary fw-light">
+                Boost your vocabulary with exercises tailored for each level:
+                <span>A1</span>, <span>A2</span>, <span>B1</span>,
+                <span>B1+</span>, <span>B2</span>. Every lesson features
+                keywords, definitions, pictures and quizzes with personalized
+                feedback to enhance your learning.
+              </p>
+              <a
+                href="#"
+                class="animated-btn btn border border-2 border-secondary border-opacity-75 p-2 rounded-3 text-secondary text-opacity-75"
+                >Go to the lessons</a
+              >
+            </div>
+          </div>
+        </div>
+        <!------One-Card------>
+        <div class="col-lg-4 col-md-6 col-12 mt-4">
+          <div class="card border-light rounded-4 overflow-hidden">
+            <img
+              src="./img/A1-English-Listening-Test_THow-often-do-you.webp"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body body-listening">
+              <h3 class="card-title">Listening tests</h3>
+              <p class="card-text text-secondary fw-light">
+                Improve your listening skills by practicing with our video
+                tests. There are tests for each level: <span>A1</span>,
+                <span>A2</span>, <span>B1</span>, <span>B1+</span>,
+                <span>B2</span>. You will be able to see the transcription of
+                the audio after you submit your answers.
+              </p>
+              <a
+                href="#"
+                class="animated-btn btn border border-2 border-secondary border-opacity-75 p-2 rounded-3 text-secondary text-opacity-75"
+                >Go to the tests</a
+              >
+            </div>
+          </div>
+        </div>
+        <!------One-Card------>
+        <div class="col-lg-4 col-md-6 col-12 mt-4">
+          <div class="card border-light rounded-4 overflow-hidden">
+            <img
+              src="./img/A2_Reading-test_Should-your-kids-help-with-housework.webp"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body body-reading">
+              <h3 class="card-title">Reading Tests</h3>
+              <p class="card-text text-secondary fw-light">
+                Need to improve your reading skills? Work on our reading tests.
+                There are reading tests for <span>A1</span>, <span>A2</span>,
+                <span>B1</span>, <span>B1+</span>and <span>B2</span>. You will
+                find different types of texts and there are different types of
+                questions in each test.
+              </p>
+              <a
+                href="#"
+                class="animated-btn btn border border-2 border-secondary border-opacity-75 p-2 rounded-3 text-secondary text-opacity-75"
+                >Go to the tests</a
+              >
+            </div>
+          </div>
+        </div>
+        <!------One-Card------>
+        <div class="col-lg-4 col-md-6 col-12 mt-4">
+          <div class="card border-light rounded-4 overflow-hidden">
+            <img
+              src="./img/test-english-home-Use-of-english.webp"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body body-use-of-eng">
+              <h3 class="card-title">Use of English Tests</h3>
+              <p class="card-text text-secondary fw-light">
+                In each of these tests you will find 15 multiple-choice
+                questions about the different <span>grammar lessons</span> that
+                you have studied for a specific level: <span>A1</span>,
+                <span>A2</span>, <span>B1</span>, <span>B1+</span>and
+                <span>B2</span>. You will get feedback for every answer.
+              </p>
+              <a
+                href="#"
+                class="animated-btn btn border border-2 border-secondary border-opacity-75 p-2 rounded-3 text-secondary text-opacity-75"
+                >Go to the tests</a
+              >
+            </div>
+          </div>
+        </div>
+        <!------One-Card------>
+        <div class="col-lg-4 col-md-6 col-12 mt-4">
+          <div class="card border-light rounded-4 overflow-hidden">
+            <img
+              src="./img/test-english-home-Writing.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body body-writing">
+              <h3 class="card-title">Writing Lessons</h3>
+              <p class="card-text text-secondary fw-light">
+                Improve your writing with the exercises suggested in each
+                lesson. Different types of texts for each level:
+                <span>A1</span>, <span>A2</span>, <span>B1</span>,
+                <span>B1+</span> or <span>B2</span>. You will learn how to
+                organise and connect the text in your compositions.
+              </p>
+              <a
+                href="#"
+                class="animated-btn btn border border-2 border-secondary border-opacity-75 p-2 rounded-3 text-secondary text-opacity-75"
+                >Go to the lessons</a
+              >
+            </div>
+          </div>
+        </div>
+        <!------One-Card------>
+        <div class="col-lg-4 col-md-6 col-12 mt-4">
+          <div class="card border-light rounded-4 overflow-hidden">
+            <img src="./img/Exam.webp" class="card-img-top" alt="..." />
+            <div class="card-body body-exams">
+              <h3 class="card-title">Exams</h3>
+              <p class="card-text text-secondary fw-light">
+                Improve your exam skills and achieve better results with our
+                practice materials. Test-English will help you with your
+                Cambridge KEY, Cambridge Preliminary, Cambridge First, IELTS, or
+                TOEFL iBT exam.
+              </p>
+              <a
+                href="#"
+                class="animated-btn btn border border-2 border-secondary border-opacity-75 p-2 rounded-3 text-secondary text-opacity-75"
+                >Go to the exams</a
+              >
+            </div>
+          </div>
+        </div>
+        <!------One-Card------>
+        <div class="col-lg-4 col-md-6 col-12 mt-4">
+          <div class="card border-light rounded-4 overflow-hidden">
+            <img src="./img/Level-test.webp" class="card-img-top" alt="..." />
+            <div class="card-body body-exams">
+              <h3 class="card-title">Level Test</h3>
+              <p class="card-text text-secondary fw-light">
+                If you are not sure about your level, don't worry, you can take
+                this online test. There are 60 multiple-choice questions and
+                there is no time limit. You will be able to see the answers when
+                you finish the test.
+              </p>
+              <a
+                href="#"
+                class="animated-btn btn border border-2 border-secondary border-opacity-75 p-2 rounded-3 text-secondary text-opacity-75"
+                >Take a level test</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-----Footer-text-container----->
+    </div>
+    <div class="footer-text-container text-center m-4">
+      <h2 class="fw-bold fs-2">
+        Check our latest <span>Lessons</span> and <span>tests!</span>
+      </h2>
+    </div>
+    <!-------Container end--------->
+    <!------last-lessons-test-start----->
+    <div class="last-lessons-test">
+      <div class="row p-0 m-0">
+        <!-----One col----->
+        <div class="col-lg-2 col-md-4 col-6 mb-3">
+          <div class="card border-light rounded-4 overflow-hidden">
+            <img
+              src="./img/AI-doomers-vs-AI-boomers_B1-B2-reading-test-300x167.webp"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text fw-light">
+                AI boomers vs AI doomers - B1+ English reading test
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-----One col----->
+        <div class="col-lg-2 col-md-4 col-6 mb-3">
+          <div class="card border-light rounded-4 overflow-hidden">
+            <img
+              src="./img/B2-Listening_Discussing-news-and-media-300x169.webp"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text fw-light">
+                Discussing news and media – B2 English Listening Test
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-----One col----->
+        <div class="col-lg-2 col-md-4 col-6 mb-3">
+          <div class="card border-light rounded-4 overflow-hidden">
+            <img
+              src="./img/Little-vs-A-little_Few-vs-A-few-Grammar-shorts-300x167.webp"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text fw-light">
+                Little vs A little, Few vs A few – Grammar Shorts
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-----One col----->
+        <div class="col-lg-2 col-md-4 col-6 mb-3">
+          <div class="card border-light rounded-4 overflow-hidden">
+            <img
+              src="./img/A2_Reading-test_Should-your-kids-help-with-housework.webp"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text fw-light">
+                Should kids help with household chores?
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-----One col----->
+        <div class="col-lg-2 col-md-4 col-6 mb-3">
+          <div class="card border-light rounded-4 overflow-hidden">
+            <img
+              src="./img/A1-English-Vocabulary_Eating-and-drinking-utensils.webp"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text fw-light">
+                Essay about 'My Neighbourhood' – A1 English
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-----One col----->
+        <div class="col-lg-2 col-md-4 col-6 mb-3">
+          <div class="card border-light rounded-4 overflow-hidden">
+            <img
+              src="./img/Between-vs-Among-Grammar-shorts.webp"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text fw-light">Between-vs-Among-Grammar-shorts</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------last-lessons-test-start----->
+
+    <!-------Footer-start------->
+    <div class="footer mt-5">
+      <div class="row p-0 m-0">
+        <!-----one-col----->
+        <div class="col-lg-3 col-md-4 col-sm-12 col-12 mt-4 blox-1">
+          <ul class="list-style">
+            <div class="logo mb-5">
+              <img src="./img/logo-test-english-web-home.webp" alt="" />
+            </div>
+            <li>&copy;Copyright 2016-2023</li>
+            <li>
+              <a href="#">test-english.com</a>
+            </li>
+            <li>All right reserved</li>
+            <li class="mt-3">Made at</li>
+            <li>
+              <a href="#">illadelsbous.com</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-----one-col----->
+        <div class="col-lg-2 col-md-4 col-sm-12 col-12 mt-4 blox-2">
+          <div class="vertical-line"></div>
+          <div class="horizontal-line"></div>
+
+          <ul class="list-style">
+            <li>Get in Touch</li>
+            <li>
+              <a href="#">Contact us</a>
+            </li>
+            <li>
+              <a href="#">Request a topic for a lesson</a>
+            </li>
+            <li>
+              <a href="#">Change your cookie consent</a>
+            </li>
+          </ul>
+          <div
+            class="contact-icon fs-5 mt-4 d-flex justify-content-center align-items-center"
+          >
+            <a href="https://www.facebook.com/share/1ApV4nCifc/">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://t.me/M_Reaksa1946">
+              <i class="bi bi-telegram"></i>
+            </a>
+            <a href="#">
+              <i class="bi bi-youtube"></i>
+            </a>
+            <a href="#">
+              <i class="bi bi-linkedin"></i>
+            </a>
+          </div>
+          <div class="horizontal-line-bottom mt-5"></div>
+        </div>
+        <!-----one-col----->
+        <div class="col-lg-2 col-md-4 col-sm-12 col-12 mt-4 blox-3">
+          <div class="vertical-line"></div>
+          <div class="horizontal-line"></div>
+          <ul class="list-style">
+            <li>Info</li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Term of Use</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">Cookie Declaration</a></li>
+          </ul>
+        </div>
+        <!-----one-col----->
+        <div class="col-lg-2 col-md-4 col-sm-12 col-12 mt-4 blox-3">
+          <div class="vertical-line"></div>
+          <div class="horizontal-line"></div>
+          <ul class="list-style">
+            <li>Levels</li>
+            <li><a href="#">A1 Elementary</a></li>
+            <li><a href="#">A2 Pre-intermediate</a></li>
+            <li><a href="#">B1 Intermediate</a></li>
+            <li><a href="#">B1 Upper-intermediate</a></li>
+            <li><a href="#">B2 Pre-advanced</a></li>
+          </ul>
+        </div>
+
+        <!-----one-col----->
+        <div class="col-lg-3 col-md-4 col-sm-12 col-12 mt-4 blox-4">
+          <div class="vertical-line"></div>
+          <div class="horizontal-line"></div>
+          <a
+            href="#"
+            class="ms-3 mt-4 mb-3 ps-5 pe-5 btn text-light border border-2 border-light btn-outline-success"
+            >Take a level test</a
+          >
+          <a
+            href="#"
+            class="ms-3 ps-5 pe-5 btn text-light border border-2 border-light btn-outline-success"
+            >Upgrade to pro</a
+          >
+          <div class="horizontal-line-bottom"></div>
+        </div>
+      </div>
+    </div>
+    <!-------Footer-end--------->
+  </body>
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="./js/script.js"></script>
+</html>

@@ -1,0 +1,40 @@
+@media screen and (min-width: 120px) and (max-width: 440px) {
+    .vertical-line {
+      display: none;
+    }
+    .horizontal-line {
+      width: 106%;
+      transform: translateX(-3%);
+      border-top: 1px solid rgba(248, 248, 255, 0.368);
+    }
+    .footer {
+      text-align: center;
+    }
+    .footer .list-style {
+      transform: translateX(-5%);
+    }
+    .blox-4 > .horizontal-line-bottom {
+      margin-top: 1rem;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 884px) {
+    .vertical-line {
+      display: none;
+    }
+    .blox-2 > .horizontal-line-bottom {
+      width: 329%;
+      transform: translateX(-35%);
+      border-bottom: 1px solid rgba(248, 248, 255, 0.368);
+    }
+    .blox-4 > .horizontal-line-bottom {
+      width: 200%;
+      transform: translateX(-28%);
+      border-bottom: 1px solid rgba(248, 248, 255, 0.368);
+      margin-top: 5rem;
+      margin-bottom: 1rem;
+    }
+    .footer {
+      text-align: center;
+    }
+  }
+  
